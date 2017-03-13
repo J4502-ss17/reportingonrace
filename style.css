@@ -8,7 +8,7 @@ h1 {
   text-align: left;
   clear: both;
   padding-top: 20px;
-  margin: none;
+  margin: 0;
 }
 
 h2 {
@@ -75,7 +75,7 @@ body {
 .logo {
   border: none;
   width: 100%;
-  margin-bottom: none;
+  margin-bottom: 0;
 }
 
 .caption {
@@ -121,5 +121,5 @@ body {
   position: relative;
   transform: translate (-50%,0);
   width: 100%;
-  padding-top: 0;
+  /*padding-top: 0;*/
 }
