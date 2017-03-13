@@ -93,16 +93,10 @@ body {
   margin-bottom: 0;
 }
 
+
 .card img {
   border: none;
   width: 100%;
-}
-
-.fullwidth {
-  position: relative;
-  transform: translate (-50%,0);
-  width: 100%;
-  padding-top: 0;
 }
 
 .card-container {
@@ -121,4 +115,11 @@ body {
 
 .card p {
     padding: 10px;
+}
+
+.fullwidth {
+  position: relative;
+  transform: translate (-50%,0);
+  width: 100%;
+  padding-top: 0;
 }
