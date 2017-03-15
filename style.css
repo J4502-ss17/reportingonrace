@@ -22,7 +22,9 @@ h2 {
 
 h3 {
   font-family: "Merriweather", Georgia, "Times New Roman", serif;
-  font-size: 13px;
+  font-size: 15px;
+  padding-left: 10px;
+  margin-bottom: 0;
 }
 
 p {
@@ -30,6 +32,7 @@ p {
   font-size: 14px;
   padding-top: 0;
   margin-top: 0;
+  /*margin-bottom: 0;*/
 }
 
 body {
@@ -102,6 +105,13 @@ body {
   margin-bottom: 0;
 }
 
+.link {
+  font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+}
 
 .card img {
   border: none;
