@@ -143,3 +143,10 @@ body {
   width: 100%;
   /*padding-top: 0;*/
 }
+
+video {
+  position: relative;
+  padding: 10px;
+  /*background-color: white;*/
+  width: 100%;
+}
