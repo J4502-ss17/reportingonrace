@@ -111,6 +111,8 @@ body {
   padding-top: 0;
   padding-bottom: 0;
   margin: 0;
+  /*text-decoration: none;*/
+  /*list-style-type: none;*/
 }
 
 .card img {
