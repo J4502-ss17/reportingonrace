@@ -181,8 +181,11 @@ letter-spacing:2px;
 
 .logo {
   border: none;
-  width: 100%;
+  width: 40%;
   margin-bottom: 0px;
+  text-align: center;
+  display: flex;
+  flex-flow: row;
 }
 
 .caption {
