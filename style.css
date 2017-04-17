@@ -152,20 +152,19 @@ letter-spacing:2px;
   margin: 0px;
   padding-top: 0;
   width: 33%;
-  border-right: 1px solid black;
+  border-right: 1px solid white;
   color: #334d4d
 }
 
 #nav a:link, #nav a:visited {
   display: block;
-  color: black;
-  background-color: #F5F5DC;
+  color: white;
+  background-color: black;
   font-size: 1em;
   text-align: center;
   text-decoration: none;
   padding: 4px;
   font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
-}
 
 .logo {
   border: none;
