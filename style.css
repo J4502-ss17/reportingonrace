@@ -192,7 +192,6 @@ img {
   border: none;
   width: 40%;
   margin-bottom: 0px;
-  text-align: center;
   display: flex;
   flex-flow: row;
 }
@@ -266,4 +265,43 @@ video {
   padding: 10px;
   /*background-color: white;*/
   width: 100%;
+}
+
+@media all and (max-width:600px){
+  img{
+      display:flex;
+      flex-flow:row;
+    }
+
+  #nav{
+    flex-flow:column;
+    }
+
+  #nav ul{
+    border: none;
+    margin:5px;
+    padding:5px;
+    background:black;
+    }
+
+  #nav a:hover{
+    background:black;
+    }
+}
+
+@media all and (min-width:800px){
+  .logo{
+      display:flex;
+      flex-flow:column;
+    }
+
+  #nav{
+  flex-flow:row;
+  justify-content: space-around;
+  background:black;
+  }
+
+  #nav li{
+    background:black;
+  }
 }
