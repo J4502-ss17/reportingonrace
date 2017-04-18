@@ -192,8 +192,7 @@ img {
   border: none;
   width: 40%;
   margin-bottom: 0px;
-  display: flex;
-  flex-flow: row;
+  margin:auto;
 }
 
 .caption {
@@ -268,10 +267,7 @@ video {
 }
 
 @media all and (max-width:600px){
-  img{
-      display:flex;
-      flex-flow:row;
-    }
+
 
   #nav{
     flex-flow:column;
@@ -289,11 +285,10 @@ video {
     }
 }
 
+@media all and (min-width:600px){
+
+
 @media all and (min-width:800px){
-  .logo{
-      display:flex;
-      flex-flow:column;
-    }
 
   #nav{
   flex-flow:row;
