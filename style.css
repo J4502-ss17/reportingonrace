@@ -129,10 +129,19 @@ body {
 letter-spacing:2px;
 }
 
+.footerimg{
+ height:3em;
+ width:25% ;
+ position: relatvie;
+}
+
 #footer {
   font-family: "Merriweather", Georgia, "Times New Roman", serif;
   font-size: 0.8em;
   border-top: 1px solid black;
+  display:flex;
+  flex-flow：row wrap;
+  justify-content: space-around;
 }
 
 #container {
