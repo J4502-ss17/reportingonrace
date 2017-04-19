@@ -328,9 +328,6 @@ video {
     flex-flow: column;
   }
 
-@media all and (min-width:600px){
-
-}
 
 @media all and (min-width:800px){
 
