@@ -121,6 +121,7 @@ p {
   font-size: 1em;
   padding-top: 0;
   margin-top: 0;
+  max-width: 800px;
   /*margin-bottom: 0;*/
 }
 
@@ -187,6 +188,12 @@ letter-spacing:2px;
   font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
 }
 
+/*
+#nav a:hover {
+  background-color: #4d0000;
+  padding: 10px;
+}
+*/
 
 img {
   border: none;
@@ -252,7 +259,7 @@ img {
 
 .card {
     border: 1px solid gray;
-    box-shadow: 1px 1px 3px #888;
+    box-shadow: 1px 1px 1px #888;
     border-top: 10px;
     padding: 0;
     margin-bottom: 20px;
@@ -261,6 +268,10 @@ img {
 
 .card p {
     padding: 10px;
+}
+
+.card img {
+  padding: 10px;
 }
 
 .feature {
@@ -320,7 +331,7 @@ video {
 
 
   #nav a:hover{
-    background:black;
+    background: #4d0000;
     }
 }
 
