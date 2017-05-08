@@ -131,8 +131,12 @@ body {
 letter-spacing:2px;
 }
 
-#title {
+#title h1, h2{
   text-align: center;
+}
+
+#title h1 {
+  color: #800000;
 }
 
 .footerimg{
@@ -176,7 +180,7 @@ letter-spacing:2px;
   background-color: black;
   font-size:1.5em;
   line-height:2em;
-  padding:10px;
+  padding: 5px;
   text-align:center;
   justify-content: flex-end;
   display: flex;
@@ -189,7 +193,7 @@ letter-spacing:2px;
   font-size: 1em;
   text-align: center;
   text-decoration: none;
-  padding: 10px;
+  padding: 5px;
   font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
 }
 
