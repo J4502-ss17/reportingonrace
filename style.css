@@ -339,6 +339,18 @@ video {
   width: 100%;
 }
 
+/*Table of Conents Coding*/
+
+.article-container {
+    display: flex;
+    flex-flow: row;
+    clear: both;
+    width: 40%;
+    padding: 20px;
+    margin: 20px;
+}
+
+
 @media all and (max-width:600px){
 
   #nav{
@@ -355,9 +367,7 @@ video {
     flex-flow: column;
   }
 
-  /*Table of Contents Coding*/
 
-  
 
 
 @media all and (min-width:800px){
