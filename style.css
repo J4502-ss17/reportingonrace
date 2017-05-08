@@ -132,8 +132,10 @@ letter-spacing:2px;
 }
 
 #title h1, h2{
-  text-align: center;
+text-align: center;
 }
+
+
 
 #title h1 {
   color: #800000;
