@@ -119,6 +119,7 @@ h3 {
 p {
   font-family: "Merriweather", Georgia, "Times New Roman", serif;
   font-size: 1em;
+  line-height: 1.5;
   padding-top: 0;
   margin-top: 0;
   max-width: 800px;
