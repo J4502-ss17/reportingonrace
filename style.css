@@ -131,6 +131,10 @@ body {
 letter-spacing:2px;
 }
 
+#title {
+  text-align: center;
+}
+
 .footerimg{
  height:3em;
  width:25% ;
@@ -238,18 +242,22 @@ img {
 
 .card img {
   border: none;
+  padding: 10px;
 }
 
 .feature img {
   border: none;
+  padding: 10px;
 }
 
 .article-1 img {
   border: none;
+  padding: 10px;
 }
 
 .article-2 img {
   border: none;
+  padding: 10px;
 }
 
 .card-container {
