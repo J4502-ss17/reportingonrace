@@ -112,7 +112,7 @@ h2 {
 h3 {
   font-family: "Merriweather", Georgia, "Times New Roman", serif;
   font-size: 1.2em;
-  padding-left: 10px;
+  padding-left: 0px;
   margin-bottom: 0;
 }
 
@@ -291,7 +291,7 @@ img {
     border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
     border-top: 10px;
-    padding: 0;
+    padding: 10;
     margin-bottom: 20px;
     /*width: 30%*/
 }
@@ -301,7 +301,7 @@ img {
     border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
     border-top: 10px;
-    padding: 0;
+    padding: 10;
     margin-bottom: 20px;
     /*width: 30%*/
 }
@@ -311,16 +311,17 @@ img {
     border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
     border-top: 10px;
-    padding: 0;
+    padding: 10;
     margin-bottom: 20px;
     /*width: 30%*/
 }
 
 .article-1 p {
-    padding: 10px;
     display: flex;
     flex-flow: row;
 }
+
+
 
 .fullwidth {
   position: relative;
@@ -377,16 +378,19 @@ video {
   .feature{
     flex: 1 auto;
     margin:10px;
+    padding: 10px;
   }
 
   .article-1{
     flex: 3 auto;
     margin:10px;
+    padding: 10px;
   }
 
   .article-2{
     flex: 3 auto;
-    margin:10px
+    margin: 10px;
+    padding: 10px;
   }
 
   .footer{
