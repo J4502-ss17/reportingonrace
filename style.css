@@ -127,17 +127,34 @@ p {
 }
 
 body {
-  margin: 0;
+margin: 0;
 letter-spacing:2px;
 }
 
-#title h1, h2{
+.title h1, h2{
 text-align: center;
 }
 
 
 
-#title h1 {
+.title h1 {
+  color: #800000;
+}
+
+h2{
+  text-align: left;
+}
+
+.poem{
+  font-family: "Merriweather Sans", sans-serif;
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+.poemtitle{
+  font-family: "Merriweather Bold Sans", sans-serif;
+  font-weight: bold;
+  font-size: 2em;
   color: #800000;
 }
 
@@ -218,7 +235,7 @@ img {
   font-style: italic;
   font-size: 0.8em;
   margin-top: 0;
-  text-align: left;
+  text-align: right;
   color: black;
 }
 
@@ -227,6 +244,7 @@ img {
   font-size: 1em;
   font-style: italic;
   margin-bottom: 0;
+  line-height: 3em;
 }
 
 .Subhead {
@@ -324,7 +342,6 @@ img {
 }
 
 
-
 .fullwidth {
   position: relative;
   transform: translate (-50%,0);
@@ -372,6 +389,22 @@ video {
 .tablecontents {
   padding: 20px;
 }
+
+.poemimage img{
+  width: 40%;
+  padding-top: 10px;
+}
+
+.poemcaption {
+  text-align: left;
+  font-family: "Merriweather Sans: 300i";
+  font-style: italic;
+  font-size: 0.8em;
+  margin-top: 0;
+  margin-bottom: 40px;
+  color: black;
+}
+
 
 @media all and (max-width:600px){
 
