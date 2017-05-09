@@ -144,6 +144,19 @@ text-align: center;
 h2{
   text-align: left;
 }
+.poemtitle{
+  line-height: 1em;
+  padding-bottom: 0px;
+  padding-top: 20px;
+}
+
+.poemtitle h2{
+  font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  text-align: left;
+  font-weight: lighter;
+  padding-bottom: 0px;
+}
 
 .poem{
   font-family: "Merriweather Sans", sans-serif;
@@ -243,15 +256,14 @@ img {
   font-family: "Merriweather", Georgia, "Times New Roman", serif;
   font-size: 1em;
   font-style: italic;
-  margin-bottom: 0;
-  line-height: 3em;
 }
 
 .Subhead {
-  font-family: "Merriweather", Georgia, "Times New Roman", serif;
+  font-family: "Merriweather Sans",  sans-serif;
   font-size: 1.2em;
   font-style: bold;
   margin-bottom: 0;
+  color: #800000;
 }
 
 .link {
