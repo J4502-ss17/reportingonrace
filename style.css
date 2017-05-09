@@ -382,6 +382,12 @@ video {
   width: 100%;
 }
 
+/*Portraits of Persistence portion*/
+
+audio {
+  margin: 10px;
+}
+
 /*Table of Conents Coding*/
 
 .article-container {
