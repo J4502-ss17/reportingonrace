@@ -221,14 +221,6 @@ h4{
     max-width: 200px;
   }
 
-}
-
-
-.footerimg{
- height:3em;
- width:25% ;
- position: relative;
-}
 
 .portraits{
   padding-left: 20px;
@@ -239,15 +231,15 @@ h4{
   margin: 1.5em 10px;
   padding: 0.5em 10px;
 }
-/*
-#footer {
+
+.footer {
   font-family: "Merriweather", Georgia, "Times New Roman", serif;
   font-size: 0.8em;
   border-top: 1px solid black;
   display:flex;
   flex-flow：row wrap;
   justify-content: space-around;
-}*/
+}
 
 #container {
   width: 95%;
@@ -305,6 +297,12 @@ img {
   margin-bottom: 0px;
   margin:auto;
 }
+
+.footerimg{
+ height:3em;
+ width:200px;
+ margin-right: 10px;
+ margin-top: -17px;}
 
 .caption {
   font-family: "Merriweather Sans: 300i";
@@ -553,7 +551,7 @@ audio {
     padding: 10px;
   }
 
-  .footer{
+.footer{
 flex-flow: column;
 margin: 10px;
 padding: 10px;
