@@ -4,7 +4,7 @@
 
 #videobox{
   display:flex;
-  flex-flow:row;
+  flex-flow:row nowrap;
   justify-content: center;
 }
 
@@ -315,11 +315,26 @@ img {
 
 .caption {
   font-family: "Merriweather Sans: 300i";
-  font-style: italic;
+  /*font-style: italic;*/
   font-size: 0.8em;
   margin-top: 0;
-  text-align: right;
+
   color: black;
+  position: relative;
+     background: none;
+
+     margin: 0px !important;
+     max-width: 100% !important;
+}
+.introduction{
+  /*font-family: "Merriweather",  "Times New Roman", serif;*/
+  font-size: 1em;
+  margin-top: 0;
+  color: black;
+  position: relative;
+     background: none;
+     max-width: 100%;
+     font-family: "Merriweather Sans: 300i";
 }
 
 .Byline {
@@ -329,12 +344,36 @@ img {
 }
 
 .Subhead {
-  font-family: "Merriweather Sans",  sans-serif;
-  font-size: 1.2em;
+
+  font-family: "Merriweather", Georgia, "Times New Roman", serif;
+  font-size: 2em;
   font-style: bold;
   margin-bottom: 0;
-  color: #800000;
+  color: black;
+  /*margin-left: 50px;*/
+  position：relative；
+  margin: 0px !important;
+  max-width: 100% !important;
 }
+.videohead {
+  font-family: "Merriweather", Georgia, "Times New Roman", serif;
+  font-size: 2em;
+  font-style: bold;
+  margin-bottom: 0;
+  color: black;
+  /*margin-left: 50px;*/
+  position：relative；
+  /*margin: 0px !important;*/
+  max-width: 100% !important;
+  padding-top:15px;
+      padding-bottom: 0px;
+      margin-left: 8%;
+      margin-bottom:5px;
+
+
+}
+
+
 
 .link {
   font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
