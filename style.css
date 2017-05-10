@@ -224,13 +224,22 @@ h4{
 
 .portraits{
   padding-left: 20px;
+  margin:auto;
+  width: 95%;
+
+  display: flex;
+  flex-flow: column;
+  justify-content:center;
+
 }
 
 .portrait-1,.portrait-2,.portrait-3,.portrait-4,.portrait-5,.portrait-6,.portrait-7{
   border-top: 2px solid black;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
+  text-align: left;
 }
+
 
 .footer {
   font-family: "Merriweather", Georgia, "Times New Roman", serif;
@@ -451,6 +460,7 @@ img {
     display: flex;
     flex-flow: row;
 }
+
 
 
 .fullwidth {
