@@ -344,17 +344,23 @@ img {
 
 .feature img {
   border: none;
+  width: 450px;
+  margin-left: -10px;
+  margin-top: -10px;
 }
 
 .article-1 img {
   border: none;
-  width: 100px;
+  width: 200px;
   margin-left: -10px;
+  margin-top: -10px;
 }
 
 .article-2 img {
   border: none;
   width: 300px;
+  margin-left: -10px;
+  margin-top: -10px;
 }
 
 
@@ -367,6 +373,23 @@ img {
   font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
 }
 .card-container a:visited{
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+  color: #800000;
+  font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
+}
+
+.videocredit a:link{
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+  font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
+}
+.videocredit a:visited{
   font-size: 1em;
   text-align: center;
   text-decoration: none;
