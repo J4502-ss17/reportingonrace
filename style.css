@@ -348,10 +348,13 @@ img {
 
 .article-1 img {
   border: none;
+  width: 100px;
+  margin-left: -10px;
 }
 
 .article-2 img {
   border: none;
+  width: 300px;
 }
 
 
