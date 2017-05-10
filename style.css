@@ -92,8 +92,9 @@
 }
 
 h1 {
-  font-family: "Merriweather", Georgia, "Times New Roman", serif;
+  font-family: "Merriweather Sans Bold", sans-serif;
   font-size: 2em;
+  font-weight: bolder;
   text-align: left;
   clear: both;
   padding-top: 20px;
@@ -101,7 +102,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   font-size: 1.5em;
   text-align: left;
   font-weight: lighter;
@@ -117,8 +118,9 @@ h3 {
 }
 
 p {
-  font-family: "Merriweather", Georgia, "Times New Roman", serif;
+  font-family: "Merriweather Light", serif;
   font-size: 1em;
+  font-weight: 300;
   line-height: 1.5;
   padding-top: 0;
   margin-top: 0;
@@ -129,6 +131,18 @@ p {
 body {
 margin: 0;
 letter-spacing:2px;
+}
+
+blockquote{
+  font-family: "Merriweather",  serif;
+  font-size: 1em;
+  font-style: bold;
+  margin-left: 40px;
+  color: #800000;
+  max-width: 400px;
+  border-left: 2px solid black;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
 }
 
 .title h1, h2{
@@ -143,6 +157,19 @@ text-align: center;
 
 h2{
   text-align: left;
+}
+.poemtitle{
+  line-height: 1em;
+  padding-bottom: 0px;
+  padding-top: 20px;
+}
+
+.poemtitle h2{
+  font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  text-align: left;
+  font-weight: lighter;
+  padding-bottom: 0px;
 }
 
 .poem{
@@ -243,15 +270,14 @@ img {
   font-family: "Merriweather", Georgia, "Times New Roman", serif;
   font-size: 1em;
   font-style: italic;
-  margin-bottom: 0;
-  line-height: 3em;
 }
 
 .Subhead {
-  font-family: "Merriweather", Georgia, "Times New Roman", serif;
+  font-family: "Merriweather Sans",  sans-serif;
   font-size: 1.2em;
   font-style: bold;
   margin-bottom: 0;
+  color: #800000;
 }
 
 .link {
@@ -356,6 +382,12 @@ video {
   width: 100%;
 }
 
+/*Portraits of Persistence portion*/
+
+audio {
+  margin: 10px;
+}
+
 /*Table of Conents Coding*/
 
 .article-container {
@@ -437,6 +469,7 @@ video {
     background:black;
   }
 }
+
 
 @media screen and (min-width:1000px){
 
