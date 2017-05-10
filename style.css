@@ -387,14 +387,23 @@ img {
 
 .feature img {
   border: none;
+  width: 450px;
+  margin-left: -10px;
+  margin-top: -10px;
 }
 
 .article-1 img {
   border: none;
+  width: 200px;
+  margin-left: -10px;
+  margin-top: -10px;
 }
 
 .article-2 img {
   border: none;
+  width: 300px;
+  margin-left: -10px;
+  margin-top: -10px;
 }
 
 
