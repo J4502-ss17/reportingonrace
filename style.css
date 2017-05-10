@@ -231,11 +231,6 @@ h4{
 }
 
 
-.footerimg{
- height:3em;
- width:25% ;
- position: relative;
-}
 
 .portraits{
   padding-left: 20px;
@@ -425,6 +420,27 @@ img {
     flex-flow: row;
     clear: both;
 }
+/*.card-container1 {
+    display: flex;
+    flex-flow: row;
+    clear: both;
+    font-size:1em;
+}*/
+
+
+.footerimg{
+ height:2em;
+ width:25%;
+ position: absolute;
+}
+
+.footer{
+width:100%;
+flex-flow: row wrap;
+margin: 20px;
+padding: 10px;
+}
+
 .card {
     border: 1px solid gray;
     box-shadow: 1px 1px 1px #888;
@@ -599,9 +615,5 @@ audio {
     padding: 10px;
   }
 
-  .footer{
-flex-flow: column;
-margin: 10px;
-padding: 10px;
- }
+
 }
