@@ -130,7 +130,7 @@ p {
   font-family: "Merriweather Light", serif;
   font-size: 1em;
   font-weight: 300;
-  line-height: 1.5;
+  line-height: 1.2;
   padding-top: 0;
   margin-top: 0;
   max-width: 800px;
@@ -194,6 +194,33 @@ h4{
   font-weight: bold;
   font-size: 2em;
   color: #800000;
+}
+
+.poetry {
+    list-style-type: none;
+    display: none;
+    font-size:1.5em;
+    line-height:2em;
+    padding: 5px;
+    text-align:left;
+    justify-content: flex-end;
+    display: flex;
+    flex-flow: column;
+  }
+
+  .poetry a:link, .poetry a:visited {
+    color: 	#008080;
+    font-size: 1em;
+    text-align: left;
+    text-decoration: none;
+    padding: 5px;
+    font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
+  }
+
+  .zippert img{
+    max-width: 200px;
+  }
+
 }
 
 
