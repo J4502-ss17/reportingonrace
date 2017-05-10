@@ -390,6 +390,23 @@ img {
   font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
 }
 
+.story a:link{
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+  font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
+}
+.story a:visited{
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+  color: #008080;
+  font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
+}
+
 .videocredit a:link{
   font-size: 1em;
   text-align: center;
@@ -498,7 +515,7 @@ audio {
   border: 1px solid gray;
   border-right: 10px;
   border-left: 10px;
-  padding: 0;
+  padding: 10px;
   margin-bottom: 20px;
   max-width: 800px;
   /*width: 30%*/
