@@ -202,6 +202,16 @@ h4{
  position: relative;
 }
 
+.portraits{
+  padding-left: 20px;
+}
+
+.portrait-1,.portrait-2,.portrait-3,.portrait-4,.portrait-5,.portrait-6,.portrait-7{
+  border-top: 2px solid black;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+
 #footer {
   font-family: "Merriweather", Georgia, "Times New Roman", serif;
   font-size: 0.8em;
@@ -404,10 +414,29 @@ audio {
 .article-container {
     display: flex;
     flex-flow: row;
+    justify-content: space-around;
     clear: both;
     width: 40%;
     padding: 20px;
     margin: 20px;
+}
+
+.article-1{
+  flex: 2 auto;
+  margin:10px;
+  padding: 10px;
+}
+
+.article-2{
+  flex: 2 auto;
+  margin:10px;
+  padding: 10px;
+}
+
+.feature{
+  flex: 2 auto;
+  margin:10px;
+  padding: 10px;
 }
 
 .story {
@@ -499,13 +528,13 @@ audio {
   }
 
   .article-1{
-    flex: 3 auto;
+    flex: 1 auto;
     margin:10px;
     padding: 10px;
   }
 
   .article-2{
-    flex: 3 auto;
+    flex: 1 auto;
     margin: 10px;
     padding: 10px;
   }
