@@ -154,7 +154,7 @@ blockquote{
   font-size: 1em;
   font-style: bold;
   margin-left: 40px;
-  color: #800000;
+  color: #008080;
   max-width: 400px;
   border-left: 2px solid black;
   margin: 1.5em 10px;
@@ -168,7 +168,7 @@ text-align: center;
 
 
 .title h1{
-  color: #800000;
+  color: #008080;
 }
 
 
@@ -200,7 +200,7 @@ h4{
   font-family: "Merriweather Bold Sans", sans-serif;
   font-weight: bold;
   font-size: 2em;
-  color: #800000;
+  color: #008080;
 }
 
 .poetry {
@@ -420,7 +420,7 @@ img {
   text-align: center;
   text-decoration: none;
   padding: 5px;
-  color: #800000;
+  color: #008080;
   font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
 }
 
