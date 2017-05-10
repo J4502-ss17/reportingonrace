@@ -420,6 +420,24 @@ img {
     flex-flow: row;
     clear: both;
 }
+
+
+.videocredit a:link{
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+  font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
+}
+.videocredit a:visited{
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+  color: #008080;
+  font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
+}
 /*.card-container1 {
     display: flex;
     flex-flow: row;
