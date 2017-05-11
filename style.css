@@ -158,10 +158,20 @@ blockquote{
   font-family: "Merriweather",  serif;
   font-size: 1em;
   font-style: bold;
-  font-style: italic;
   margin-left: 40px;
   color: #008080;
   max-width: 400px;
+  border-left: 2px solid black;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+
+.specialintro{
+  font-family: "Merriweather",  serif;
+  font-size: 2em;
+  font-style: italic;
+  margin-left: 40px;
+  max-width: 600px;
   border-left: 2px solid black;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
