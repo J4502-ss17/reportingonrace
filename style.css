@@ -449,6 +449,9 @@ img {
     clear: both;
 }
 
+.Dotson img{
+  width: 40%;
+}
 
 .videocredit a:link{
   font-size: 1em;
