@@ -8,6 +8,11 @@
   justify-content: center;
 }
 
+.centerpiece{
+  text-align:left;
+margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto;
+
+}
 
 /* Slideshow container */
 .slideshow-container {
