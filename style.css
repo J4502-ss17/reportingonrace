@@ -168,11 +168,11 @@ blockquote{
 
 .specialintro{
   font-family: "Merriweather",  serif;
-  font-size: 2em;
+  font-size: 1.3em;
   font-style: italic;
   margin-left: 40px;
-  max-width: 600px;
-  border-left: 2px solid black;
+  max-width: 800px;
+  border-bottom: 2px solid #008080;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
 }
